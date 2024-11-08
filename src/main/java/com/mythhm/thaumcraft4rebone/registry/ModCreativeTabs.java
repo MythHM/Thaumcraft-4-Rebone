@@ -21,6 +21,13 @@ public class ModCreativeTabs {
                     .displayItems((params, output) -> {
                         output.accept(ModItems.GREAT_WOOD_LOG.get());
                         output.accept(ModItems.GREAT_WOOD_PLANKS.get());
+                        output.accept(ModItems.SILVER_WOOD_LOG.get());
+                        output.accept(ModItems.SILVER_WOOD_PLANKS.get());
+                        output.accept(ModItems.AIR_ORE.get());
+                        output.accept(ModItems.FIRE_ORE.get());
+                        output.accept(ModItems.EARTH_ORE.get());
+                        output.accept(ModItems.ORDER_ORE.get());
+                        output.accept(ModItems.ENTROPY_ORE.get());
                     })
                     .build());
 }

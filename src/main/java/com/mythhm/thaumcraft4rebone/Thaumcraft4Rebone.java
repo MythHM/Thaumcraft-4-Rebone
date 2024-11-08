@@ -1,6 +1,7 @@
 package com.mythhm.thaumcraft4rebone;
 
 import com.mojang.logging.LogUtils;
+import com.mythhm.thaumcraft4rebone.block.ElementalOreBlock;
 import com.mythhm.thaumcraft4rebone.registry.ModBlocks;
 import com.mythhm.thaumcraft4rebone.registry.ModCreativeTabs;
 import com.mythhm.thaumcraft4rebone.registry.ModItems;
@@ -75,6 +76,7 @@ public class Thaumcraft4Rebone
         ModBlocks.BLOCKS.register(modEventBus);
 
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+
         /*
         // 注册 mod 加载的 commonSetup 方法
         modEventBus.addListener(this::commonSetup);
