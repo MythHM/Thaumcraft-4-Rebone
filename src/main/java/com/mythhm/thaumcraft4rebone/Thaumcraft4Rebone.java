@@ -1,6 +1,7 @@
 package com.mythhm.thaumcraft4rebone;
 
 import com.mojang.logging.LogUtils;
+import com.mythhm.thaumcraft4rebone.datagen.DataGenerators;
 import com.mythhm.thaumcraft4rebone.registry.ModBlocks;
 import com.mythhm.thaumcraft4rebone.registry.ModCreativeTabs;
 import com.mythhm.thaumcraft4rebone.registry.ModItems;

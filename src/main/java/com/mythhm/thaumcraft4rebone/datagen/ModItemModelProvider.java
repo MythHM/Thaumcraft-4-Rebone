@@ -19,10 +19,10 @@ public class ModItemModelProvider extends ItemModelProvider{
     @Override
     protected void registerModels() {
         //普通物品
-        simpleItem(ModItems.AIR_ORE);
+        //simpleItem(ModItems.AIR_ORE);
 
         //手持物品
-        handheldItem(ModItems.FIRE_ORE);
+        //handheldItem(ModItems.FIRE_ORE);
     }
     private ItemModelBuilder simpleItem(RegistryObject<Item> item){
         return withExistingParent(item.getId().getPath(),
