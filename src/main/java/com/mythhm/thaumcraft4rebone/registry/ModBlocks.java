@@ -31,6 +31,8 @@ public class ModBlocks {
             ()-> new Block(BlockBehaviour.Properties.of().strength(1.0f).sound(SoundType.WOOD)));
 
 
+
+
     //矿石方块
     public static final RegistryObject<Block> AIR_ORE = BLOCKS.register("air_ore", () -> new ElementalOreBlock("Air"));
     public static final RegistryObject<Block> FIRE_ORE = BLOCKS.register("fire_ore", () -> new ElementalOreBlock("Fire"));
