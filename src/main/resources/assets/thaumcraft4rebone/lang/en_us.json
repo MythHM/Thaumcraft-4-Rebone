@@ -10,5 +10,11 @@
   "block.thaumcraft4rebone.earth_ore": "Earth Infused Stone",
   "block.thaumcraft4rebone.order_ore": "Order Infused Stone",
   "block.thaumcraft4rebone.entropy_ore": "Entropy Infused Stone",
-  "block.thaumcraft4rebone.water_ore": "Water Infused Stone"
+  "item.thaumcraft4rebone.air_shard": "Air Shard",
+  "item.thaumcraft4rebone.fire_shard": "Fire Shard",
+  "item.thaumcraft4rebone.water_shard": "Water Shard",
+  "item.thaumcraft4rebone.earth_shard": "Earth Shard",
+  "item.thaumcraft4rebone.order_shard": "Order Shard",
+  "item.thaumcraft4rebone.entropy_shard": "Entropy Shard",
+  "item.thaumcraft4rebone.balanced_shard": "Balanced Shard"
 }

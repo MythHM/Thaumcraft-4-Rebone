@@ -27,6 +27,13 @@ public class ModItemModelProvider extends ItemModelProvider{
         simpleItem(ModItems.FIRE_ORE);
         simpleItem(ModItems.EARTH_ORE);
 
+        simpleItem(ModItems.AIR_SHARD);
+        simpleItem(ModItems.WATER_SHARD);
+        simpleItem(ModItems.ORDER_SHARD);
+        simpleItem(ModItems.ENTROPY_SHARD);
+        simpleItem(ModItems.FIRE_SHARD);
+        simpleItem(ModItems.EARTH_SHARD);
+
         //手持物品
         //handheldItem(ModItems.FIRE_ORE);
     }

@@ -10,5 +10,12 @@
   "block.thaumcraft4rebone.earth_ore": "地之蕴魔石",
   "block.thaumcraft4rebone.order_ore": "秩序之蕴魔石",
   "block.thaumcraft4rebone.entropy_ore": "混沌之蕴魔石",
-  "block.thaumcraft4rebone.water_ore": "水之蕴魔石"
+  "block.thaumcraft4rebone.water_ore": "水之蕴魔石",
+  "item.thaumcraft4rebone.air_shard": "风之碎片",
+  "item.thaumcraft4rebone.fire_shard": "火之碎片",
+  "item.thaumcraft4rebone.water_shard": "水之碎片",
+  "item.thaumcraft4rebone.earth_shard": "地之碎片",
+  "item.thaumcraft4rebone.order_shard": "秩序碎片",
+  "item.thaumcraft4rebone.entropy_shard": "混沌碎片",
+  "item.thaumcraft4rebone.balanced_shard": "平衡碎片"
 }

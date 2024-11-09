@@ -51,4 +51,27 @@ public class ModItems {
     public static final RegistryObject<Item> WATER_ORE = ITEMS.register("water_ore",
             () -> new BlockItem(ModBlocks.WATER_ORE.get(), new Item.Properties()));
 
+    //碎片
+    public static final RegistryObject<Item> AIR_SHARD = ITEMS.register("air_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> FIRE_SHARD = ITEMS.register("fire_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WATER_SHARD = ITEMS.register("water_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> EARTH_SHARD = ITEMS.register("earth_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ORDER_SHARD = ITEMS.register("order_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ENTROPY_SHARD = ITEMS.register("entropy_shard",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BALANCED_SHARD = ITEMS.register("balanced_shard",
+            () -> new Item(new Item.Properties()));
+
+
 }

@@ -29,6 +29,13 @@ public class ModCreativeTabs {
                         output.accept(ModItems.ORDER_ORE.get());
                         output.accept(ModItems.ENTROPY_ORE.get());
                         output.accept(ModItems.WATER_ORE.get());
+                        output.accept(ModItems.AIR_SHARD.get());
+                        output.accept(ModItems.FIRE_SHARD.get());
+                        output.accept(ModItems.EARTH_SHARD.get());
+                        output.accept(ModItems.ORDER_SHARD.get());
+                        output.accept(ModItems.ENTROPY_SHARD.get());
+                        output.accept(ModItems.WATER_SHARD.get());
+                        output.accept(ModItems.BALANCED_SHARD.get());
                     })
                     .build());
 }
