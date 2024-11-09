@@ -1,6 +1,5 @@
 package com.mythhm.thaumcraft4rebone.registry;
 
-import com.mythhm.thaumcraft4rebone.block.ElementalOreBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -48,5 +47,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> ENTROPY_ORE = ITEMS.register("entropy_ore",
             () -> new BlockItem(ModBlocks.ENTROPY_ORE.get(), new Item.Properties()));
+
+    public static final RegistryObject<Item> WATER_ORE = ITEMS.register("water_ore",
+            () -> new BlockItem(ModBlocks.WATER_ORE.get(), new Item.Properties()));
 
 }

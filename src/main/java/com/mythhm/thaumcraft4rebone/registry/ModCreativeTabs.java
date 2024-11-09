@@ -28,6 +28,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.EARTH_ORE.get());
                         output.accept(ModItems.ORDER_ORE.get());
                         output.accept(ModItems.ENTROPY_ORE.get());
+                        output.accept(ModItems.WATER_ORE.get());
                     })
                     .build());
 }

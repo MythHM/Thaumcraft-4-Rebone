@@ -1,6 +1,5 @@
 package com.mythhm.thaumcraft4rebone.registry;
 
-import com.mythhm.thaumcraft4rebone.block.ElementalOreBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SoundType;
@@ -34,10 +33,17 @@ public class ModBlocks {
 
 
     //矿石方块
-    public static final RegistryObject<Block> AIR_ORE = BLOCKS.register("air_ore", () -> new ElementalOreBlock("Air"));
-    public static final RegistryObject<Block> FIRE_ORE = BLOCKS.register("fire_ore", () -> new ElementalOreBlock("Fire"));
-    public static final RegistryObject<Block> EARTH_ORE = BLOCKS.register("earth_ore", () -> new ElementalOreBlock("Earth"));
-    public static final RegistryObject<Block> ORDER_ORE = BLOCKS.register("order_ore", () -> new ElementalOreBlock("Order"));
-    public static final RegistryObject<Block> ENTROPY_ORE = BLOCKS.register("entropy_ore", () -> new ElementalOreBlock("Entropy"));
+    public static final RegistryObject<Block> AIR_ORE = BLOCKS.register("air_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> FIRE_ORE = BLOCKS.register("fire_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> EARTH_ORE = BLOCKS.register("earth_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ORDER_ORE = BLOCKS.register("order_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> ENTROPY_ORE = BLOCKS.register("entropy_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> WATER_ORE = BLOCKS.register("water_ore",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2.0f).sound(SoundType.STONE)));
 
 }

@@ -4,6 +4,7 @@ import com.mythhm.thaumcraft4rebone.registry.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SaddleItem;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -19,7 +20,12 @@ public class ModItemModelProvider extends ItemModelProvider{
     @Override
     protected void registerModels() {
         //普通物品
-        //simpleItem(ModItems.AIR_ORE);
+        simpleItem(ModItems.AIR_ORE);
+        simpleItem(ModItems.WATER_ORE);
+        simpleItem(ModItems.ORDER_ORE);
+        simpleItem(ModItems.ENTROPY_ORE);
+        simpleItem(ModItems.FIRE_ORE);
+        simpleItem(ModItems.EARTH_ORE);
 
         //手持物品
         //handheldItem(ModItems.FIRE_ORE);

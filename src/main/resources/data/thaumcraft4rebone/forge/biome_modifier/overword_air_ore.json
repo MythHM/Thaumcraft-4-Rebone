@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#forge:is_plains",
+  "biomes": "#minecraft:is_overworld",
   "features": "thaumcraft4rebone:air_ore_placed",
   "step": "underground_ores"
 }

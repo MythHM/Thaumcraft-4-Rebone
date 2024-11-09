@@ -16,7 +16,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        //blockWithItem(ModBlocks.AIR_ORE);
+        blockWithItem(ModBlocks.AIR_ORE);
+        blockWithItem(ModBlocks.EARTH_ORE);
+        blockWithItem(ModBlocks.ENTROPY_ORE);
+        blockWithItem(ModBlocks.ORDER_ORE);
+        blockWithItem(ModBlocks.FIRE_ORE);
+        blockWithItem(ModBlocks.WATER_ORE);
     }
     public void blockWithItem(RegistryObject<Block> block){
         simpleBlockWithItem(block.get(),cubeAll(block.get()));
