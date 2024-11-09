@@ -1,6 +1,6 @@
 # Thaumcraft-4-Rebone
 
-Thaumcraft 4 移植到高版本项目
+Thaumcraft 4 移植到高版本项目(Forge)
 
 目前版本为Minecraft 1.20.1
 
